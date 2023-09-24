@@ -66,8 +66,8 @@ function displayQuestion() {
     nextButton.textContent = 'Next'; 
     nextButton.style.display = 'block';
     nextButton.addEventListener('click', () => {
-      window.location.href = 'https://errormasters.github.io/physicsaptitude/';
-    });
+      window.location.href = ' https://errormasters.github.io/phycics2aptitude/';
+ });
   } else if (currentQuestion < questions.length) {
     questionElement.textContent = `Question ${currentQuestion + 1}: ${questions[currentQuestion].question}`;
     answersList.innerHTML = '';
